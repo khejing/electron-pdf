@@ -98,7 +98,7 @@ function render (indexUrl, output) {
   // print to pdf args
   var opts = {
     marginType: cli.flags.m || cli.flags.marginType || 0,
-    printBackground: cli.flags.p || cli.flags.printBackground || true,
+    printBackground: cli.flags.p || cli.flags.printBackground || false,
     printSelectionOnly: cli.flags.s || cli.flags.printSelectionOnly || false,
     landscape: cli.flags.l || cli.flags.landscape || false
   }
